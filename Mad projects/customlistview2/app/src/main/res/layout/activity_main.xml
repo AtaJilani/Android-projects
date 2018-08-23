@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#545DA2"
+    tools:context="com.example.engrmajilani.customlistview.MainActivity">
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="WELCOME TO CAST VOTE!"
+        android:textColor="#FFFFFB"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <Button
+        android:id="@+id/bntcast"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="Click To Cast"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:text="Click For Information"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+</android.widget.RelativeLayout>

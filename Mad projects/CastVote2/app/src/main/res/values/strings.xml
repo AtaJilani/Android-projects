@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Cast Vote</string>
+
+    <string-array name="titles">
+
+        <item>"MQM PAKISTAN"</item>
+        <item>"PTI"</item>
+        <item>"PMLN"</item>
+        <item>"PPP"</item>
+        <item>"JAMAT"</item>
+        <item>"JUIF"</item>
+        <item>"NOTA"</item>
+
+    </string-array>
+
+    <string-array name="description">
+        <item>"Cast To MQM PAKISTAN"</item>
+        <item>"Cast To PTI"</item>
+        <item>"Cast To PMLN"</item>
+        <item>"Cast To PPP"</item>
+        <item>"Cast To JAMAT"</item>
+        <item>"Cast To JUIF"</item>
+        <item>"Non Of The Above"</item>
+    </string-array>
+</resources>

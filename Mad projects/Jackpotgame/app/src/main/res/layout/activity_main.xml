@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.engrmajilani.jackpotgame.MainActivity">
+
+    <TextView
+        android:id="@+id/txteasy"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:fontFamily="casual"
+        android:text="Click To Play Easy Mode"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtmedium"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/txteasy"
+        android:layout_below="@+id/txteasy"
+        android:layout_marginTop="84dp"
+        android:fontFamily="casual"
+        android:text="Click To Play Medium"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txthard"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/txtmedium"
+        android:layout_below="@+id/txtmedium"
+        android:layout_marginTop="90dp"
+        android:fontFamily="casual"
+        android:text="Click To Play Hard"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+</android.widget.RelativeLayout>

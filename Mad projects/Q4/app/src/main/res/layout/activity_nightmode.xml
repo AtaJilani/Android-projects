@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.engrmajilani.q4.nightmode">
+
+
+    <Button
+        android:id="@+id/btnsub1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="107dp"
+        android:text="-"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnsub2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnsub1"
+        android:layout_marginBottom="93dp"
+        android:text="-"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnadd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnsub1"
+        android:layout_marginEnd="35dp"
+        android:text="+"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnadd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnsub2"
+        android:layout_alignEnd="@+id/btnadd1"
+        android:text="+"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Team 1"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/btnsub2"
+        android:layout_alignStart="@+id/txtcount1"
+        android:layout_marginBottom="63dp"
+        android:text="Team 2"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txtcount1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/btnadd1"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/txtcount2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/btnsub2"
+        android:layout_alignStart="@+id/textView2"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/txtmode"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginTop="12dp"
+        android:text="Day Mode"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+</android.widget.RelativeLayout>

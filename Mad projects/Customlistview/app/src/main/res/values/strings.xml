@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Customlistview</string>
+
+    <string-array name="titels">
+        <item>"MQM PAKISTAN"</item>
+        <item>"PTI"</item>
+        <item>"PMLN"</item>
+        <item>"PPP"</item>
+        <item>"JAMAT"</item>
+        <item>"JUIF"</item>
+        <item>"APML"</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>"Cast To MQM PAKISTAN"</item>
+        <item>"Cast To PTI"</item>
+        <item>"Cast To PMLN"</item>
+        <item>"Cast To PPP"</item>
+        <item>"Cast To JAMAT"</item>
+        <item>"Cast To JUIF"</item>
+        <item>"Cast To APML"</item>
+    </string-array>
+
+</resources>

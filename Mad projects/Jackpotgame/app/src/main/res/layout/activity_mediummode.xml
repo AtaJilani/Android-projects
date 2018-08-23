@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.engrmajilani.jackpotgame.Mediummode">
+
+
+    <TextView
+        android:id="@+id/txtstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="173dp"
+        android:text="Status" />
+
+    <EditText
+        android:id="@+id/editget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtstatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Enter Any Number 1-20"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnpredict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editget"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Predict" />
+
+    <TextView
+        android:id="@+id/txthighscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:layout_toEndOf="@+id/editget"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/txtcurrentscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txthighscore"
+        android:layout_alignBottom="@+id/txthighscore"
+        android:layout_alignStart="@+id/txtstatus"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/txtpredict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txthighscore"
+        android:layout_alignBottom="@+id/txthighscore"
+        android:layout_toStartOf="@+id/editget"
+        android:text="NULL" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtcurrentscore"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginEnd="36dp"
+        android:text="High Score" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignEnd="@+id/btnpredict"
+        android:text="Current Score" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp"
+        android:text="Pridicted Number" />
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/btnpredict"
+        android:layout_marginTop="20dp"
+        android:text="Reset" />
+</android.widget.RelativeLayout>

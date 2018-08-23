@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.engrmajilani.castvote.Help">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:fontFamily="serif-monospace"
+        android:text="Need Help !"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="62dp"
+        android:layout_toStartOf="@+id/textView5"
+        android:text="Step-1"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_centerVertical="true"
+        android:text="Step-2"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="86dp"
+        android:text="Step-n"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_marginStart="48dp"
+        android:layout_toEndOf="@+id/textView6"
+        android:text="Do ABC Things " />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_centerVertical="true"
+        android:text="Do ABC Things " />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignStart="@+id/textView10"
+        android:text="Do ABC Things " />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="BACK"
+        android:textStyle="bold|italic" />
+</android.widget.RelativeLayout>

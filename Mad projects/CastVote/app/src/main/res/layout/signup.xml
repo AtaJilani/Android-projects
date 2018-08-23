@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtfname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="40dp"
+        android:text="First Name" />
+
+    <TextView
+        android:id="@+id/txtlname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtfname"
+        android:layout_below="@+id/txtfname"
+        android:layout_marginTop="32dp"
+        android:text="Last Name" />
+
+    <TextView
+        android:id="@+id/txtcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtlname"
+        android:layout_below="@+id/editlname"
+        android:layout_marginTop="31dp"
+        android:text="Contact No" />
+
+    <TextView
+        android:id="@+id/txtnic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtpw"
+        android:layout_alignStart="@+id/txtcontact"
+        android:text="CNIC" />
+
+    <TextView
+        android:id="@+id/txtpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtnic"
+        android:layout_below="@+id/editcnic"
+        android:layout_marginTop="77dp"
+        android:text="Password" />
+
+    <TextView
+        android:id="@+id/txtpcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtcontact"
+        android:layout_below="@+id/txtpw"
+        android:layout_marginTop="37dp"
+        android:text="Postal Code" />
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtpw"
+        android:layout_below="@+id/editcnic"
+        android:layout_marginTop="33dp"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/txtaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtpw"
+        android:layout_below="@+id/txtpcode"
+        android:layout_marginTop="26dp"
+        android:text="Address" />
+
+    <EditText
+        android:id="@+id/editfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtfname"
+        android:layout_alignBottom="@+id/txtfname"
+        android:layout_alignStart="@+id/editcontact"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textAlignment="viewStart" />
+
+    <EditText
+        android:id="@+id/editlname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtlname"
+        android:layout_alignBottom="@+id/txtlname"
+        android:layout_alignStart="@+id/editcontact"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/editcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtcontact"
+        android:layout_toEndOf="@+id/txtcontact"
+        android:inputType="phone"
+        android:hint="0000-0000000"
+        android:padding="10dp" />
+
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/editcnic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editcontact"
+        android:layout_below="@+id/editcontact"
+        android:hint="00000-0000000-0"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/editemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtemail"
+        android:layout_alignStart="@+id/editcnic"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtpw"
+        android:layout_alignBottom="@+id/txtpw"
+        android:layout_alignEnd="@+id/editpcode"
+        android:layout_alignStart="@+id/editpcode"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/editpcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtpcode"
+        android:layout_toEndOf="@+id/txtpcode"
+        android:inputType="textPostalAddress"
+        android:padding="10dp"
+        tools:ignore="UnknownId" />
+
+    <EditText
+        android:id="@+id/editaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtaddress"
+        android:layout_alignBottom="@+id/txtaddress"
+        android:layout_alignStart="@+id/editpcode"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/txtdob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtaddress"
+        android:layout_below="@+id/editaddress"
+        android:layout_marginTop="22dp"
+        android:text="Date of Birth" />
+
+    <EditText
+        android:id="@+id/editdob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtdob"
+        android:layout_alignBottom="@+id/txtdob"
+        android:layout_toEndOf="@+id/txtdob"
+        android:inputType="date"
+        android:hint="dd/mm/yy"
+        android:padding="10dp" />
+</RelativeLayout>

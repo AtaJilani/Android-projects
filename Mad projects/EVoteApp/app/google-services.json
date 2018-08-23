@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "235434558146",
+    "firebase_url": "https://evote-47b75.firebaseio.com",
+    "project_id": "evote-47b75",
+    "storage_bucket": "evote-47b75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235434558146:android:33fe78832eba2ca8",
+        "android_client_info": {
+          "package_name": "com.fa15be.evoteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235434558146-2qcafp56juolsgbrvbgd7dp5vb2d7jps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fa15be.evoteapp",
+            "certificate_hash": "68fe48d8afdc7abd65f195d110163d52833071be"
+          }
+        },
+        {
+          "client_id": "235434558146-25kak1mr9a5nphdo6cnq76i84qo5i2h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh22tSAmRZ1w9qp4SAHzhCc0ypEuwURAA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235434558146-25kak1mr9a5nphdo6cnq76i84qo5i2h9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

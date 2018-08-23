@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.engrmajilani.q3.MainActivity">
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="92dp"
+        android:text="Chocolate Syrup" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_below="@+id/checkBox1"
+        android:layout_marginTop="28dp"
+        android:text="Sprinkles" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_below="@+id/checkBox2"
+        android:layout_marginTop="23dp"
+        android:text="Crushed" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_below="@+id/checkBox3"
+        android:layout_marginTop="27dp"
+        android:text="Cherries" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_below="@+id/checkBox4"
+        android:layout_marginTop="22dp"
+        android:text="Orlo cookie crumbles" />
+
+    <Button
+        android:id="@+id/btntoast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_below="@+id/checkBox5"
+        android:layout_marginTop="21dp"
+        android:text="Show Toast" />
+</android.widget.RelativeLayout>

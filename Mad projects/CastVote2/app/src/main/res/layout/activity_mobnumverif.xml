@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.engrmajilani.castvote.Mobnumverif">
+
+    <EditText
+        android:id="@+id/editphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnsend"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:ems="10"
+        android:hint="Phone Numner"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <Button
+        android:id="@+id/btnsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editcode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:text="Send"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <EditText
+        android:id="@+id/editcode"
+        android:layout_width="157dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="186dp"
+        android:ems="10"
+        android:hint="Code"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/btnverify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnsend"
+        android:layout_alignTop="@+id/editcode"
+        android:layout_marginTop="69dp"
+        android:text="Verify" />
+
+    <Button
+        android:id="@+id/btnresend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnverify"
+        android:layout_below="@+id/btnverify"
+        android:layout_marginTop="23dp"
+        android:text="Resend" />
+
+</android.widget.RelativeLayout>

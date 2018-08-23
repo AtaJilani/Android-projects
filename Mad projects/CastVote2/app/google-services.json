@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "386088668331",
+    "firebase_url": "https://castvote2.firebaseio.com",
+    "project_id": "castvote2",
+    "storage_bucket": "castvote2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386088668331:android:e37633c1e28666bc",
+        "android_client_info": {
+          "package_name": "com.example.engrmajilani.castvote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386088668331-tj5bak547vbe1lpq8ja4o4ahp7phtanh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.engrmajilani.castvote",
+            "certificate_hash": "083cb3ea771ddc966f3b8e1ba98b91ad05b28523"
+          }
+        },
+        {
+          "client_id": "386088668331-22m601ne0m59ajrav7h979a5rjes3h1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAja3Poh83VMLys1IEma2s-N2O-QolSuYY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386088668331-22m601ne0m59ajrav7h979a5rjes3h1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
